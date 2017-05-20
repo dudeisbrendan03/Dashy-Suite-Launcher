@@ -35,6 +35,8 @@ goto 1
 ::mkdir modzillainstallation
 git reset
 git clone https://github.com/dudeisbrendan03/modzilla.git modzillainstallation
+move modzillainst.py modzillainstallation\modzillainst.py
+move modzillainst.js modzillainstallation\modzillainstallation.js
 cd modzillainstallation
 python modzillainst.py
 :End
