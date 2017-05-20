@@ -36,7 +36,8 @@ goto 1
 cd modzillainstallation
 git init
 git pull https://github.com/dudeisbrendan03/modzilla.git
-python modzillainstallation\modzillainst.py
+cd modzillainstallation
+python modzillainst.py
 :End
 
 Exit
