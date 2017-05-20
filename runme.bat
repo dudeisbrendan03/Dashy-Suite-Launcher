@@ -33,9 +33,8 @@ node dashyinst.js
 goto 1
 :Option-2
 ::mkdir modzillainstallation
-cd modzillainstallation
 git reset
-git clone --allow-unrelated-histories https://github.com/dudeisbrendan03/modzilla.git modzillainstallation
+git clone https://github.com/dudeisbrendan03/modzilla.git modzillainstallation
 cd modzillainstallation
 python modzillainst.py
 :End
