@@ -35,7 +35,7 @@ goto 1
 ::mkdir modzillainstallation
 cd modzillainstallation
 git init
-git pull https://github.com/dudeisbrendan03/EasyAwesomeBotInstaller.git
+git pull https://github.com/dudeisbrendan03/modzilla.git
 python modzillainstallation\modzillainst.py
 :End
 
