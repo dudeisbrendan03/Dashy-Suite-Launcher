@@ -10,7 +10,7 @@ import fileinput
 #file.close()
 
 #Start editing method 1
-hostingurl = input("What is the hosting url for your bot (this is where the bot will say the address is. Include an address and port): ")
+hostingurl = int(input("What is the hosting url for your bot (this is where the bot will say the address is. Include an address and port): "))
 for line in fileinput.input("Configuration\config.json", inplace=True):
-    print hostingurl % (fileinput.filelineno(), 4),
+    print "hostingurl" % (fileinput.filelineno(), 4),
 
