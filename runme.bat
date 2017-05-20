@@ -34,8 +34,9 @@ goto 1
 :Option-2
 ::mkdir modzillainstallation
 cd modzillainstallation
-git init
-git pull https://github.com/dudeisbrendan03/modzilla.git
+git fetch https://github.com/dudeisbrendan03/modzilla.git
+git reset
+git pull --allow-unrelated-histories https://github.com/dudeisbrendan03/modzilla.git
 cd modzillainstallation
 python modzillainst.py
 :End
