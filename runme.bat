@@ -36,7 +36,7 @@ goto 1
 cd modzillainstallation
 git init
 git pull https://github.com/dudeisbrendan03/EasyAwesomeBotInstaller.git
-node modzillainst.js
+python modzillainstallation\modzillainst.py
 :End
 
 Exit
